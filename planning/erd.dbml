@@ -24,26 +24,29 @@ userId int [ref: > user.id]
 campsiteId int [ref: > campsites.id]
 }
 
-table autoShops {
-id int [pk]
-shopname varchar
-location varchar
-userId int [ref: > user.id]
-}
+
+//Tables below are additions to MVP that I hope to complete.
+
+// table autoShops {
+// id int [pk]
+// shopname varchar
+// location varchar
+// userId int [ref: > user.id]
+// }
 
 
-table food {
-id int [pk]
-name varchar 
-location varchar
-cuisine varchar //dropdown?
-details text 
-userId int [ref: > user.id]
-}
+// table food {
+// id int [pk]
+// name varchar 
+// location varchar
+// cuisine varchar //dropdown?
+// details text 
+// userId int [ref: > user.id]
+// }
 
-table coffeeShops {
-id int [pk]
-shopname varchar
-location varchar
-userId int [ref: > user.id]
-}
+// table coffeeShops {
+// id int [pk]
+// shopname varchar
+// location varchar
+// userId int [ref: > user.id]
+// }
